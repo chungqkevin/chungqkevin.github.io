@@ -1,4 +1,5 @@
+console.log("Get this function");
+
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
   console.log("Hello world");
 }
