@@ -61,7 +61,7 @@ footer {
   color: #555; /* Set text color for the footer */
   padding: 10px; /* Add padding to the footer for spacing */
   text-align: left; /* Left-align the content in the footer */
-  font-size: 12px; /* Set a smaller font size */
+  font-size: small; /* Set a smaller font size */
   width: 100%; /* Full width */
 }
 
