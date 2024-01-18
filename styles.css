@@ -16,6 +16,7 @@ header {
 }
 
 header h1 a {
+  font-size: xx-large;
   text-decoration: none; /* Remove underline */
   color: inherit; /* Inherit the color from the parent (h1) */
 }
