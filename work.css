@@ -1,1 +1,28 @@
+/* Add this to your work.css file */
 
+/* Style the work section */
+#work {
+  max-width: 800px; /* Set a maximum width for better readability */
+  margin: 0 auto; /* Center the content */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+/* Style heading and paragraphs in the work section */
+#work h2 {
+  color: #333; /* Set heading color */
+}
+
+#work p {
+  line-height: 1.5; /* Adjust line height for better readability */
+  color: #666; /* Set paragraph text color */
+}
+
+/* Style the boxes for displaying past works */
+.work-box {
+  border: 1px solid #ccc; /* Add a border to the work boxes */
+  padding: 15px; /* Add padding for spacing */
+  margin-bottom: 20px; /* Add margin between work boxes */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Add any additional styles for your work page as needed */
