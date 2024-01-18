@@ -1,1 +1,18 @@
+/* Style the about section */
+#about {
+  max-width: 600px; /* Set a maximum width for better readability */
+  margin: 0 auto; /* Center the content */
+  padding: 20px; /* Add some padding for spacing */
+}
 
+/* Style heading and paragraphs in the about section */
+#about h2 {
+  color: #333; /* Set heading color */
+}
+
+#about p {
+  line-height: 1.5; /* Adjust line height for better readability */
+  color: #666; /* Set paragraph text color */
+}
+
+/* Add any additional styles for your about me page as needed */
