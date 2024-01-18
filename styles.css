@@ -28,7 +28,7 @@ header h1 a {
 }
 
 header h1 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #000000;
   opacity: 0.5;
 }
