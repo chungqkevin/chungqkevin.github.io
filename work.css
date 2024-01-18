@@ -29,7 +29,8 @@
 
 .work-item img {
   max-width: 100%; /* Make sure images don't exceed their container width */
-  height: auto; /* Maintain the aspect ratio of images */
+  height: 200px; /* Set a fixed height for uniformity */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
   display: block; /* Remove default inline display */
   margin: 0 auto; /* Center the image within its container */
 }
@@ -38,3 +39,4 @@
   margin-top: 10px; /* Add margin between image and description */
 }
 
+/* Add any additional styles for your work page as needed */
