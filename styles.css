@@ -15,6 +15,16 @@ header {
   margin: 20px 0;
 }
 
+header h1 a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the parent (h1) */
+}
+
+header h1 a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #0066cc; /* Change color on hover if desired */
+}
+
 nav {
   text-align: center;
 }
