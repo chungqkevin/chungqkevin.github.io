@@ -22,7 +22,7 @@ header h1 a {
 
 header h1 a:hover {
   text-decoration: underline; /* Underline on hover */
-  color: #0066cc; /* Change color on hover if desired */
+  color: #000000; /* Change color on hover if desired */
 }
 
 nav {
