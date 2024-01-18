@@ -54,41 +54,15 @@ main {
   text-align: center
 }
 
-/* Contact form */
-
-/* Reset default margin and padding for form elements */
-form {
-  margin: 0;
-  padding: 0;
-}
-
-/* Style form labels */
-form label {
-  display: block; /* Display labels as blocks to stack vertically */
-  margin-bottom: 5px; /* Add a small margin between labels and form fields */
-}
-
-/* Style form input fields and textarea */
-form input,
-form textarea {
-  width: 100%; /* Make input fields and textarea take up full width */
-  padding: 8px; /* Add padding for better appearance */
-  margin-bottom: 10px; /* Add margin between form fields */
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
-}
-
-/* Style form submit button */
-form input[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* Hover effect for submit button */
-form input[type="submit"]:hover {
-  background-color: #45a049;
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1); /* Use rgba to set background color with opacity */
+  color: #555; /* Set text color for the footer */
+  padding: 10px; /* Add padding to the footer for spacing */
+  text-align: left; /* Left-align the content in the footer */
+  font-size: 12px; /* Set a smaller font size */
+  width: 100%; /* Full width */
 }
 
