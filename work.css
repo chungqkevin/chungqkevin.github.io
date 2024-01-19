@@ -5,9 +5,10 @@ body {
 
 /* Style the work section */
 #work {
-  max-width: 800px; /* Set a maximum width for better readability */
-  margin: 0 auto; /* Center the content */
-  padding: 20px; /* Add some padding for spacing */
+  width: 80%; /* Adjust the width */
+  margin: 20px auto; /* Add some margin for spacing */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 /* Style heading and paragraphs in the work section */
