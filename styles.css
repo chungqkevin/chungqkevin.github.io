@@ -16,6 +16,7 @@ header {
 }
 
 header h1 a {
+  margin-top: auto;
   font-size: xx-large;
   text-decoration: none;
   color: inherit;
