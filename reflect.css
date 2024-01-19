@@ -8,7 +8,7 @@
 
 /* Style heading for reflections section */
 #reflect h2 {
-  color: #333; /* Set heading color */
+  color: black; /* Set heading color */
 }
 
 /* Style individual blog posts */
@@ -18,7 +18,7 @@
 
 p {
   line-height: 1.5; /* Adjust line height for better readability */
-  color: #333; /* Set paragraph text color (adjusted for consistency) */
+  color: black; /* Set paragraph text color (adjusted for consistency) */
   font-size: small;
 }
 
