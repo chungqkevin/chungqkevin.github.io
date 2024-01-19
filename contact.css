@@ -1,13 +1,33 @@
-/* Reset default margin and padding for form elements */
+/* Add this to your contact.css file */
+
+/* Style the contact section */
+#contact {
+  max-width: 800px; /* Set a maximum width for better readability */
+  margin: 0 auto; /* Center the content */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+/* Style heading and paragraphs in the contact section */
+#contact h2 {
+  color: #333; /* Set heading color */
+}
+
+#contact p {
+  line-height: 1.5; /* Adjust line height for better readability */
+  color: #666; /* Set paragraph text color */
+}
+
+/* Style the form */
 form {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Style form labels */
 form label {
-  display: block; /* Display labels as blocks to stack vertically */
-  margin-bottom: 5px; /* Add a small margin between labels and form fields */
+  margin-bottom: 10px; /* Add margin between labels and form fields */
+  text-align: left; /* Left-align the labels */
 }
 
 /* Style form input fields and textarea */
@@ -20,7 +40,7 @@ form textarea {
 }
 
 /* Style form submit button */
-form input[type="submit"] {
+form button {
   background-color: #4CAF50;
   color: white;
   padding: 10px 15px;
@@ -30,6 +50,6 @@ form input[type="submit"] {
 }
 
 /* Hover effect for submit button */
-form input[type="submit"]:hover {
+form button:hover {
   background-color: #45a049;
 }
