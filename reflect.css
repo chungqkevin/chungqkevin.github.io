@@ -15,6 +15,13 @@
   margin-bottom: 40px; /* Add margin between blog posts */
 }
 
+p {
+  line-height: 1.5; /* Adjust line height for better readability */
+  color: #333; /* Set paragraph text color (adjusted for consistency) */
+  text-align: left;
+  font-size: small;
+}
+
 /* Style blog post headings */
 .blog-post h3 {
   color: #333; /* Set heading color */
