@@ -1,23 +1,21 @@
 /* Style the contact section */
 #contact {
-  max-width: 800px; /* Set a maximum width for better readability */
-  margin: 0 auto; /* Center the content */
-  padding: 20px; /* Add some padding for spacing */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* Style heading and paragraphs in the contact section */
 #contact h2 {
-  color: #333; /* Set heading color */
+  color: #333;
 }
 
 #contact p {
-  line-height: 1.5; /* Adjust line height for better readability */
-  color: black;/* Set paragraph text color */
+  line-height: 1.5;
+  color: black;
   text-align: left;
   font-size: small;
 }
-
-
 
 /* Style the form */
 form {
@@ -28,17 +26,19 @@ form {
 
 /* Style form labels */
 form label {
-  margin-bottom: 10px; /* Add margin between labels and form fields */
-  text-align: left; /* Left-align the labels */
+  margin-bottom: 10px;
+  text-align: left;
+  color: black;
+  font-size: small;
 }
 
 /* Style form input fields and textarea */
 form input,
 form textarea {
-  width: 100%; /* Make input fields and textarea take up full width */
-  padding: 8px; /* Add padding for better appearance */
-  margin-bottom: 10px; /* Add margin between form fields */
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  width: 100%;
+  padding: 10px; /* Increased padding for better appearance */
+  margin-bottom: 15px; /* Increased margin for better spacing */
+  box-sizing: border-box;
 }
 
 /* Style form submit button */
