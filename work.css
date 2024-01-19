@@ -18,7 +18,9 @@ body {
 
 #work p {
   line-height: 1.5; /* Adjust line height for better readability */
-  color: #666; /* Set paragraph text color */
+  color: black;/* Set paragraph text color */
+  text-align: left;
+  font-size: small;
 }
 
 /* Style the boxes for displaying past works */
